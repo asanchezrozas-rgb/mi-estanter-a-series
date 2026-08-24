@@ -85,6 +85,10 @@ Formato por entrada:
 - Disponible en España: Netflix y Atresplayer — cita textual "el documental, que consta de cuatro episodios que tienes disponibles en Atresplayer y Netflix" — [Hola.com](https://www.hola.com/actualidad/20240509253461/el-caso-asunta-netflix-documental/), verificado 2026-08-24
 - Categoría en el catálogo: colocada en "📌 Pendientes" (no en Terminadas), porque la usuaria no indicó haberla visto — solo pidió añadirla. Ella puede marcarla como completada desde la ficha cuando corresponda.
 
+## The Pitt — corrección de temporadas
+- Corregida: 2026-08-24, a raíz de que la usuaria notó que el sitio seguía mostrando "1 temporada".
+- Año / temporadas: figuraba como 1 temporada; se actualizó a 2 temporadas, confirmado directamente en la ficha oficial de HBO Max España — [HBO Max España](https://www.hbomax.com/es/es/shows/pitt-2024/e6e7bad9-d48d-4434-b334-7c651ffc4bdf), verificado 2026-08-24. No se tocó ningún otro dato de la ficha (sinopsis, creador/a, reparto y disponibilidad se mantienen igual).
+
 ---
 
 _Las 67 series existentes antes de esta fecha fueron cargadas originalmente con

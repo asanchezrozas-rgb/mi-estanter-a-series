@@ -73,7 +73,8 @@ Formato por entrada:
 - Reparto principal: Griselda Siciliani, Esteban Lamothe, Benjamín Vicuña — [Wikipedia ES](https://es.wikipedia.org/wiki/Envidiosa)
 - Disponible en España: Netflix — [Wikipedia ES](https://es.wikipedia.org/wiki/Envidiosa)
 
-## Lo que la verdad esconde: El caso Asunta (Operación Nenúfar)
+## Lo que la verdad esconde: El caso Asunta (Operación Nenúfar) — ELIMINADA
+- **Eliminada del catálogo: 2026-08-24**, a pedido de la usuaria: aclaró que lo que vio fue la serie dramatizada de Netflix ("El caso Asunta", que sigue en el catálogo), no este documental. Se quita de G/DATA/DETAILS/EXTRA_SYNOPSIS. Se deja este registro para que quede constancia de que existió y por qué se retiró, en vez de borrar el historial.
 - Añadida: 2026-08-24, a pedido explícito de la usuaria ("si agrega ese documental"), como ficha nueva y separada de la serie dramatizada "El caso Asunta" (2024) ya existente en el catálogo — son dos títulos distintos sobre el mismo caso real.
 - Nota de fuentes: en esta entrada, siguiendo instrucción de la usuaria, no se usó Wikipedia. Se usó la página oficial de Netflix como fuente principal, y prensa de entretenimiento española (Hola.com, Hipertextual, Infobae España) para completar datos que la página de Netflix no detalla (episodios, director, disponibilidad exacta en España).
 - Título oficial completo: confirmado tal cual vía [Netflix (ficha oficial)](https://www.netflix.com/es/title/80997225)

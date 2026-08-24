@@ -1,0 +1,100 @@
+{
+  "ratings": {
+    "Friends": 5,
+    "Lo que la verdad esconde: El caso Asunta (Operación Nenúfar)": 4,
+    "La Oficina": 5,
+    "Karol G: Mañana Fue Bonito": 5,
+    "Selena: la serie": 5,
+    "Merlí: Sapere Aude": 5,
+    "Luis Miguel: la serie": 5,
+    "Borgen: Power & Glory": 5,
+    "Borgen": 5,
+    "Monsters: The Lyle and Erik Menendez Story": 4,
+    "The Diplomat": 4,
+    "El tiempo que te doy": 5,
+    "Paquita Salas": 5,
+    "The Pitt": 5,
+    "The Last of Us": 5,
+    "Machos Alfa": 4,
+    "The Gilded Age": 5,
+    "Respira": 3,
+    "El caso Asunta": 4,
+    "Valeria": 3,
+    "And Just Like That…": 4,
+    "Succession": 5,
+    "Hasta que te conocí": 5,
+    "Merlí": 5,
+    "Narcos": 5,
+    "Sex and the City": 5,
+    "The Office": 5,
+    "Espartaco": 5,
+    "Fleabag": 5,
+    "This Is Us": 5,
+    "Game of Thrones": 5,
+    "Suits": 5,
+    "Pablo Escobar: El patrón del mal": 4,
+    "Lost": 4,
+    "How to Get Away with Murder": 4,
+    "Las chicas del cable": 4,
+    "La Casa de Papel": 4,
+    "Vivir sin permiso": 4,
+    "Élite": 4,
+    "Sex Education": 5,
+    "El desorden que dejas": 3,
+    "The White Lotus": 5,
+    "Entrevías": 4,
+    "Anatomía de un escándalo": 4,
+    "Euphoria": 5,
+    "Cien años de soledad": 4
+  },
+  "progress": {
+    "Friends": {
+      "s": 10
+    },
+    "Adolescence": {
+      "s": 1,
+      "e": 1
+    },
+    "Euphoria": {
+      "s": 1,
+      "e": 6
+    },
+    "Cien años de soledad": {
+      "s": 1,
+      "e": 7
+    },
+    "Stranger Things": {
+      "s": 4
+    }
+  },
+  "catOverride": {
+    "Lo que la verdad esconde: El caso Asunta (Operación Nenúfar)": "✅ Terminadas",
+    "La Oficina": "🔜 Esperando nueva temporada",
+    "Envidiosa": "🔜 Esperando nueva temporada"
+  },
+  "favorites": {
+    "Selena: la serie": true,
+    "Merlí: Sapere Aude": true,
+    "Luis Miguel: la serie": true,
+    "Borgen: Power & Glory": true,
+    "Borgen": true,
+    "El tiempo que te doy": true,
+    "Paquita Salas": true,
+    "The Last of Us": true,
+    "Karol G: Mañana Fue Bonito": true,
+    "And Just Like That…": true,
+    "Succession": true,
+    "Hasta que te conocí": true,
+    "Merlí": true,
+    "Narcos": true,
+    "Sex and the City": true,
+    "Friends": true,
+    "The Office": true,
+    "Espartaco": true,
+    "Fleabag": true,
+    "This Is Us": true,
+    "Las chicas del cable": true,
+    "La Casa de Papel": true,
+    "The White Lotus": true
+  }
+}

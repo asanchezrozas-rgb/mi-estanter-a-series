@@ -90,6 +90,77 @@ Formato por entrada:
 - Corregida: 2026-08-24, a raíz de que la usuaria notó que el sitio seguía mostrando "1 temporada".
 - Año / temporadas: figuraba como 1 temporada; se actualizó a 2 temporadas, confirmado directamente en la ficha oficial de HBO Max España — [HBO Max España](https://www.hbomax.com/es/es/shows/pitt-2024/e6e7bad9-d48d-4434-b334-7c651ffc4bdf), verificado 2026-08-24. No se tocó ningún otro dato de la ficha (sinopsis, creador/a, reparto y disponibilidad se mantienen igual).
 
+## Auditoría completa de portadas — 2026-08-26
+- Motivo: la usuaria detectó que la portada de "La Casa de Papel" parecía ser la de la versión coreana.
+- Método: el sitio obtiene las portadas llamando a `api.tvmaze.com/singlesearch/shows?q=…`. Se consultó ese mismo endpoint para **las 67 series que dependen de esa búsqueda** (las 6 restantes ya tenían imagen fijada a mano), y se comparó el nombre, idioma y año de estreno devueltos contra el año registrado en el catálogo. Resultado: **65 correctas, 2 incorrectas**.
+- Nota sobre la naturaleza de esta fuente: TVMaze es la base de datos que el sitio usa **como proveedor de imágenes**, no como fuente de datos de las fichas. Los años y demás datos de las fichas siguen viniendo de las fuentes oficiales registradas en este documento. TVMaze se cita aquí únicamente para acreditar de qué registro sale cada imagen.
+
+### La Casa de Papel — portada corregida
+- Problema: el alias de búsqueda era "Money Heist", y `singlesearch` devolvía **"Money Heist: Korea - Joint Economic Area"** (coreana, estreno 2022-06-24), no la serie española. La portada mostrada era la del remake coreano.
+- Corrección: imagen fijada a mano (POSTER_OVERRIDES) al registro correcto — "La Casa de Papel" (español, estreno 2017-05-02, fin 2021-12-03) — [TVMaze](https://api.tvmaze.com/singlesearch/shows?q=La%20Casa%20de%20Papel), verificado 2026-08-26. No se modificó ningún dato de la ficha, solo la imagen.
+
+### Pablo Escobar: El patrón del mal — portada corregida
+- Problema: el alias de búsqueda era "Pablo Escobar: The Boss", que devuelve **HTTP 404** (sin resultado), por lo que la tarjeta no mostraba ninguna imagen.
+- Corrección: imagen fijada a mano al registro correcto — "Pablo Escobar: El Patrón del Mal" (español, estreno 2012-05-28, fin 2012-11-19) — [TVMaze](https://api.tvmaze.com/singlesearch/shows?q=Pablo%20Escobar:%20El%20Patr%C3%B3n%20del%20Mal), verificado 2026-08-26. No se modificó ningún dato de la ficha.
+
+---
+
+## Salvados — AÑADIDA CON FICHA PENDIENTE
+- Añadida: 2026-08-26, a pedido de la usuaria (5 estrellas, favorita, terminada).
+- **⚠ DATOS NO CARGADOS A PROPÓSITO.** Las fuentes oficiales del programa (`lasexta.com`, `atresplayer.com`, `atresmedia.com` y otros dominios de Atresmedia) están **bloqueadas por la política de red de esta sesión**: el gateway responde HTTP 403 a la conexión. Se intentó por dos vías independientes y con siete dominios oficiales distintos, sin éxito.
+- Siguiendo la norma de la usuaria (nunca inventar ni asumir), **no se ha rellenado ningún dato**: ni año, ni número de temporadas, ni sinopsis, ni género, ni presentador. La serie aparece en el catálogo como "Datos por completar" hasta poder verificarla contra fuente oficial.
+- Búsquedas web realizadas: solo devolvieron fuentes prohibidas por la norma (Wikipedia, IMDb, TheTVDB, FormulaTV, JustWatch). **Ninguna se ha usado.**
+- Portada: única excepción, por ser el mecanismo de imágenes del propio sitio y no un dato de ficha — [TVMaze](https://api.tvmaze.com/search/shows?q=Salvados) (registro "Salvados", español, estreno 2008-02-24, cadena La Sexta), verificado 2026-08-26. **Ese año NO se ha volcado a la ficha**, precisamente porque TVMaze no es fuente oficial.
+- Para completarla: hace falta acceso a las páginas oficiales, o que la usuaria pegue su contenido.
+
+## Vivir 100 años: Los secretos de las zonas azules
+- Añadida: 2026-08-26 (5 estrellas, favorita, terminada).
+- Título: se usa el título oficial tal como lo muestra Netflix España — [Netflix España](https://www.netflix.com/es/title/81214929)
+- Título original: Live to 100: Secrets of the Blue Zones — [Netflix](https://www.netflix.com/title/81214929)
+- Año / temporadas: 2023 (estreno 30 de agosto de 2023), miniserie de 4 episodios = 1 temporada — [Netflix España](https://www.netflix.com/es/title/81214929), [Netflix Tudum](https://www.netflix.com/tudum/articles/live-to-100-secrets-of-the-blue-zones-documentary)
+- Género: Documental · Salud — clasificación propia basada en los géneros oficiales que lista Netflix ("Series documentales", "Documentales socioculturales y estilo de vida") — [Netflix España](https://www.netflix.com/es/title/81214929)
+- Sinopsis: adaptada de la sinopsis oficial — [Netflix España](https://www.netflix.com/es/title/81214929), [Netflix Tudum](https://www.netflix.com/tudum/articles/live-to-100-secrets-of-the-blue-zones-documentary)
+- Creador/a: **Netflix no acredita dirección en ninguna de sus fichas oficiales.** Se consultaron la ficha española, la internacional y el Media Center, y ninguna lo indica; por eso se consigna la producción ejecutiva (Angus Wall, MakeMake Entertainment) y se hace constar expresamente que la dirección no está acreditada, en vez de atribuirla — [Netflix Tudum](https://www.netflix.com/tudum/articles/live-to-100-secrets-of-the-blue-zones-documentary), [Netflix Media Center](https://media.netflix.com/en/only-on-netflix/81214929)
+- Reparto / presentador: Dan Buettner — [Netflix España](https://www.netflix.com/es/title/81214929)
+- Disponible en España: Netflix — [Netflix España](https://www.netflix.com/es/title/81214929)
+- Portada: [TVMaze](https://api.tvmaze.com/singlesearch/shows?q=Live%20to%20100:%20Secrets%20of%20the%20Blue%20Zones) (estreno 2023-08-30, coincide con el dato oficial de Netflix)
+
+## Our Planet
+- Añadida: 2026-08-26 (5 estrellas, favorita, terminada).
+- Título: la usuaria lo pidió como "Our Planet" (título original) y así se ha dejado. Netflix España lo titula "Nuestro planeta" — [Netflix España](https://www.netflix.com/es/title/80049832)
+- Año / temporadas: **2019** (estreno 5 de abril de 2019), **2 temporadas / 12 episodios** — T1 "Nuestro planeta" (2019, 8 episodios) y T2 "Nuestro planeta II" (2023, 4 episodios). Se verificó expresamente que Netflix lo presenta como **un solo título con dos temporadas** (un único ID 80049832 con selector de temporadas), no como dos títulos separados — [Netflix España](https://www.netflix.com/es/title/80049832), [Netflix (sala de prensa)](https://about.netflix.com/en/news/sir-david-attenborough-voices-new-netflix-series-our-planet-1), [Netflix Tudum](https://www.netflix.com/tudum/articles/how-our-planet-ii-was-made)
+- Nota: la ficha de Netflix muestra "2023" en pantalla porque refleja la temporada más reciente; en el catálogo se registra 2019, que es el estreno original confirmado por la sala de prensa oficial.
+- Género: Documental · Naturaleza — clasificación propia basada en los géneros oficiales de Netflix ("Documentales sobre naturaleza y ecología", "Series documentales") — [Netflix España](https://www.netflix.com/es/title/80049832)
+- Sinopsis: adaptada de la sinopsis oficial — [Netflix España](https://www.netflix.com/es/title/80049832)
+- Creador/a: Alastair Fothergill y Keith Scholey (Silverback Films), en asociación con WWF — [Netflix (sala de prensa)](https://about.netflix.com/en/news/sir-david-attenborough-voices-new-netflix-series-our-planet-1)
+- Reparto / narración: David Attenborough — [Netflix España](https://www.netflix.com/es/title/80049832)
+- Disponible en España: Netflix — [Netflix España](https://www.netflix.com/es/title/80049832)
+- Portada: [TVMaze](https://api.tvmaze.com/singlesearch/shows?q=Our%20Planet) (estreno 2019-04-05, coincide con el dato oficial)
+
+## ¿Y ahora qué? El futuro según Bill Gates
+- Añadida: 2026-08-26 (4 estrellas, terminada).
+- Título: la usuaria lo pidió como "Y ahora qué? el futuro segun Bill Gates"; se ha usado la grafía oficial de Netflix España, con signo de apertura y acentos — [Netflix España](https://www.netflix.com/es/title/81609333)
+- Título original: What's Next? The Future with Bill Gates (con interrogación, no dos puntos) — [Netflix](https://www.netflix.com/title/81609333)
+- Año / temporadas: 2024 (estreno 18 de septiembre de 2024), 1 temporada de 5 episodios — [Netflix España](https://www.netflix.com/es/title/81609333), [Netflix Tudum](https://www.netflix.com/tudum/articles/whats-next-future-bill-gates-release-date-trailer-news)
+- Género: Documental · Sociedad — clasificación propia basada en los géneros oficiales de Netflix ("Series documentales", "Documentales socioculturales") — [Netflix España](https://www.netflix.com/es/title/81609333)
+- Sinopsis: adaptada de la sinopsis oficial y de los títulos de los cinco episodios — [Netflix España](https://www.netflix.com/es/title/81609333)
+- Creador/a: Morgan Neville (producción ejecutiva), Tremolo Productions. Dirección acreditada: Jason Zeldes, Alex Braverman, Neha Shastry, Nicola Marsh y Morgan Neville — [Netflix Media Center](https://media.netflix.com/it/only-on-netflix/81609333)
+- Reparto / participantes: Bill Gates, con Anthony Fauci, Bono, James Cameron, Lady Gaga, Bernie Sanders y otros — [Netflix Media Center](https://media.netflix.com/it/only-on-netflix/81609333)
+- Disponible en España: Netflix — [Netflix España](https://www.netflix.com/es/title/81609333)
+- Portada: [TVMaze](https://api.tvmaze.com/singlesearch/shows?q=What's%20Next?%20The%20Future%20with%20Bill%20Gates) (estreno 2024-09-18, coincide con el dato oficial)
+
+## Furia
+- Añadida: 2026-08-26 (4 estrellas, terminada).
+- **Desambiguación:** existen al menos tres producciones con este nombre — la española de HBO Max, una noruega de 2021 (Viaplay) y "Furies" (Francia, Netflix, 2024). Se ha registrado **la española**, por ser la que encaja con el resto del catálogo de la usuaria. Pendiente de que ella lo confirme.
+- Año: **2025**, no 2024. Estreno el viernes 11 de julio de 2025. El equívoco con 2024 viene de que la nota de anuncio de la serie es de mayo de 2024, pero se estrenó más de un año después — [Warner Bros. Discovery (sala de prensa)](https://press.wbd.com/na/media-release/hbo-0/hbo-original-series-rage-debuts-july-11), [HBO Max España](https://www.hbomax.com/es/es/show/72591c0a-2fad-43e4-863c-c53090c4269e)
+- Temporadas: 1 temporada de 8 episodios (~30 min). La plataforma sigue mostrando solo 1 temporada; hay una segunda parte anunciada oficialmente para 2026, aún no estrenada — [HBO Max España](https://www.hbomax.com/es/es/show/72591c0a-2fad-43e4-863c-c53090c4269e), [WBD](https://press.wbd.com/na/media-release/hbo-0/hbo-renews-original-spanish-series-rage)
+- Género: Comedia · Comedia negra — géneros oficiales tal como los lista HBO Max España. Nota: la sala de prensa de WBD la describe como "drama contemporáneo" con dosis de ironía y humor; se ha usado la clasificación de la plataforma — [HBO Max España](https://www.hbomax.com/es/es/show/72591c0a-2fad-43e4-863c-c53090c4269e), [WBD](https://press.wbd.com/us/property/rage)
+- Sinopsis: adaptada de las descripciones oficiales — [HBO Max España](https://www.hbomax.com/es/es/show/72591c0a-2fad-43e4-863c-c53090c4269e), [WBD](https://press.wbd.com/us/property/rage)
+- Creador/a: Félix Sabroso (creador, guionista y director). Nota: circula la mención de un codirector, Jau Fornés, que **no aparece en ninguna fuente oficial** consultada, por lo que no se ha incluido — [WBD](https://press.wbd.com/na/media-release/hbo-0/hbo-original-series-rage-debuts-july-11)
+- Reparto principal: Carmen Machi (Marga), Candela Peña (Nat), Cecilia Roth (Victoria), Nathalie Poza (Adela), Pilar Castro (Vera) — [WBD](https://press.wbd.com/na/media-release/hbo-0/hbo-original-series-rage-debuts-july-11)
+- Disponible en España: HBO Max — [HBO Max España](https://www.hbomax.com/es/es/show/72591c0a-2fad-43e4-863c-c53090c4269e)
+- Portada: imagen fijada a mano, porque la búsqueda simple de "Furia" en TVMaze devuelve la serie **noruega** de 2021. Se fijó al registro español (español, estreno 2025-07-11, HBO Max) — [TVMaze](https://api.tvmaze.com/search/shows?q=Furia), verificado 2026-08-26
+
 ---
 
 _Las 67 series existentes antes de esta fecha fueron cargadas originalmente con

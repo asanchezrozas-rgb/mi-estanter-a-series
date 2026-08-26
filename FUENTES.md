@@ -161,6 +161,79 @@ Formato por entrada:
 - Disponible en España: HBO Max — [HBO Max España](https://www.hbomax.com/es/es/show/72591c0a-2fad-43e4-863c-c53090c4269e)
 - Portada: imagen fijada a mano, porque la búsqueda simple de "Furia" en TVMaze devuelve la serie **noruega** de 2021. Se fijó al registro español (español, estreno 2025-07-11, HBO Max) — [TVMaze](https://api.tvmaze.com/search/shows?q=Furia), verificado 2026-08-26
 
+## Auditoría completa de temporadas y años — 2026-08-26
+
+- Motivo: la usuaria detectó que "Respira" figuraba con 1 temporada cuando tiene 2, y pidió revisar que **toda** la información fuese correcta, oficial y **actualizada a hoy**.
+- Método, en dos pasos:
+  1. **Cribado** — se consultó `api.tvmaze.com/singlesearch/shows?q=…&embed=seasons` para las 77 fichas con datos, contando únicamente las temporadas con fecha de estreno **anterior o igual al 26-08-2026** (las anunciadas sin estrenar no cuentan).
+  2. **Verificación oficial** — toda discrepancia detectada se comprobó después contra la **página oficial de la plataforma** antes de tocar nada. TVMaze se usó solo como detector, nunca como autoridad del dato final.
+- Resultado: **67 fichas correctas, 10 desactualizadas**. Ningún año de estreno resultó erróneo; todos los fallos eran en el número de temporadas.
+- Aviso metodológico registrado durante la auditoría: **las fichas de Netflix muestran en cabecera el año de la temporada más reciente, no el del estreno original** (p. ej. Machos Alfa y Envidiosa muestran "2026"). Los años del catálogo se mantienen como año de estreno original, que es lo correcto.
+
+### Correcciones aplicadas
+| Serie | Antes | Ahora | Fuente oficial |
+|---|---|---|---|
+| Cien años de soledad | 1 | 2 | [Netflix](https://www.netflix.com/title/81087583) · [About Netflix](https://about.netflix.com/es_es/news/one-hundred-years-of-solitude-concludes-this-august) (Parte 2, 5-ago-2026) |
+| Respira | 1 | 2 | [Netflix España](https://www.netflix.com/es/title/81667161) · [About Netflix](https://about.netflix.com/es_es/news/breathless-returns-to-netflix-premiering-october-31st) |
+| Borgen | 4 | **3** | [Netflix España](https://www.netflix.com/es/title/70302482) |
+| The Diplomat | 2 | 3 | [Netflix España](https://www.netflix.com/es/title/81288983) (T3, 16-oct-2025) |
+| Machos Alfa | 3 | 5 | [Netflix España](https://www.netflix.com/es/title/81559021) (T5, 17-abr-2026) |
+| Emily in Paris | 4 | 5 | [Netflix España](https://www.netflix.com/es/title/81037371) (T5, 18-dic-2025) |
+| Bridgerton | 3 | 4 | [Netflix](https://www.netflix.com/title/80232398) (T4, 29-ene-2026) |
+| The Morning Show | 3 | 4 | [Apple TV](https://tv.apple.com/us/show/the-morning-show/umc.cmc.25tn3v8ku4b39tr6ccgb8nl6m) (T4, 17-sep-2025) |
+| Paradise | 1 | 2 | [Disney+](https://www.disneyplus.com/browse/entity-2b4b8988-50c9-4097-bf93-bc34a99a5b4f) |
+| Outlander | 7 | 8 | [Starz](https://www.starz.com/us/en/series/outlander/21796) |
+
+**Nota sobre Borgen (corrección a la baja):** figuraba con 4 temporadas, pero Netflix solo lista 3. La cuarta entrega de 2022 es un título **independiente** ("Borgen: Reino, poder y gloria"), que Netflix describe como continuación autónoma y que **ya estaba catalogado aparte** en esta estantería como "Borgen: Power & Glory". Contarla dentro de "Borgen" la duplicaba — [Netflix](https://www.netflix.com/es/title/81282868)
+
+### Casos revisados que resultaron correctos y por qué conviene dejar constancia
+- **Espartaco**: TVMaze solo listaba 3 temporadas porque ficha *Gods of the Arena* como miniserie aparte. Starz la numera oficialmente como **temporada 2**, así que las 4 del catálogo son correctas. La continuación de 2025 *House of Ashur* es una serie distinta y no cuenta — [Starz](https://www.starz.com/us/en/series/spartacus/5972)
+- **La Casa de Papel**: TVMaze fusiona las Partes 1 y 2 en un objeto, dando 4. Netflix lista oficialmente **5 partes**; el catálogo era correcto — [Netflix](https://www.netflix.com/title/80192098)
+- **Peaky Blinders** (T7 y T8 anunciadas sin fecha), **The Gilded Age** (T4 renovada sin estrenar) y **La Oficina** (T2 renovada sin estrenar): se mantienen sin cambios porque **las temporadas anunciadas pero no estrenadas no se cuentan**.
+- **Envidiosa**: ya estaba correcta con 4; la T4 (29-abr-2026) es la temporada final.
+- **Monsters: The Lyle and Erik Menendez Story**: sigue siendo 1 temporada. Netflix la publica como "Limited Series" con ID propio; "The Ed Gein Story" es un título distinto, no una T2 — [Netflix](https://www.netflix.com/title/81665094)
+
+---
+
+## Karol G: Mañana Fue Bonito → **Karol G: Mañana Fue Muy Bonito** — corrección de título y de tipo
+- Corregida: 2026-08-26, detectada durante la auditoría.
+- **Título**: el registrado era incorrecto. El oficial es "Karol G: Mañana Fue **Muy** Bonito" — [Netflix](https://www.netflix.com/title/81909018), [About Netflix](https://about.netflix.com/es/news/karol-g-like-youve-never-seen-her-before-arrives-on-netflix-on-may-8)
+- **Tipo**: no es una serie sino una **película documental**, sin temporadas. Se marca como "película" en vez de "1 temporada".
+- Nota técnica: para que el cambio de título no dejara huérfanas la valoración y la marca de favorita de la usuaria (que se guardan por título), se añadió al sitio una **migración automática de claves** que traslada valoración, favorita y progreso del título antiguo al nuevo la primera vez que se abre la página, en cada dispositivo. Verificado con prueba automatizada.
+
+---
+
+## Salvados — ficha completada (EXCEPCIÓN DE FUENTES AUTORIZADA)
+- Completada: 2026-08-26. Se añadió el 26-08-2026 sin datos por bloqueo de fuentes; la usuaria **autorizó expresamente y solo para esta ficha** el uso de Wikipedia y búsqueda web general, dado que los dominios oficiales de Atresmedia (atresplayer.com, lasexta.com, antena3.com, atresmedia.com) devuelven **HTTP 403** desde este entorno. Se verificó el bloqueo por cuatro vías distintas antes de recurrir a la excepción. **Ningún dato de esta ficha procede de una fuente oficial de Atresmedia.**
+- **Corrección importante para la usuaria:** ella asociaba el programa a Jordi Évole, pero **Évole dejó de presentarlo en mayo de 2019**. Por eso la ficha recoge a los dos presentadores con sus fechas.
+- Año de inicio: **24 de febrero de 2008**, en laSexta — [Wikipedia ES](https://es.wikipedia.org/wiki/Salvados), [FormulaTV](https://www.formulatv.com/programas/salvados/)
+- Estado a hoy: **en emisión**. El 17-08-2026 se publicó la promo de la temporada 2026-27 con Gonzo — [elDiario/Vertele](https://www.eldiario.es/vertele/videos/salvados-promociona-nueva-temporada-lasexta-gonzo-vacaciones-volver-ahora_7_13452048.html)
+- Presentadores: **Jordi Évole desde el 24-02-2008 hasta el 05-05-2019** (último programa, "Mi barrio"; unos 300 programas en 11 temporadas) y **Gonzo, Fernando González González, desde el 20-10-2019** (primer programa, "Acoso sexual en el trabajo"), que sigue al frente — [Diez Minutos](https://www.diezminutos.es/teleprograma/programacion-tv/a27354045/salvados-final-jordi-evole-adios-lasexta-gonzo-sustituto/), [FormulaTV](https://www.formulatv.com/videos/gonzo-estrena-salvados-20-octubre-acoso-sexual-trabajo-20980/), [elDiario/Vertele](https://www.eldiario.es/vertele/noticias/gonzo-sustituto-evole-salvados-lasexta-presentador_1_7436689.html)
+- Género: reportajes de actualidad y periodismo de investigación — [Wikipedia ES](https://es.wikipedia.org/wiki/Salvados)
+- Sinopsis: redactada a partir de la descripción del formato y de su evolución (nació en 2008 como especiales de humor con Évole como "El Follonero" y derivó hacia el periodismo de investigación) — [Wikipedia ES](https://es.wikipedia.org/wiki/Salvados), [elDiario/Vertele](https://www.eldiario.es/vertele/noticias/entrevista-evole-salvados-aniversario-lasexta_1_7467562.html)
+- Productora: El Terrat (2008-2015) → Producciones del Barrio (desde 2015) — [Wikipedia ES](https://es.wikipedia.org/wiki/Salvados)
+- Dónde verlo: laSexta en abierto; bajo demanda en ATRESplayer — [Wikipedia ES](https://es.wikipedia.org/wiki/Salvados). ⚠ La modalidad exacta en ATRESplayer (gratis con anuncios o solo suscripción) **no se pudo verificar** por el bloqueo del dominio.
+- **⚠ Temporadas: 19, dato con incertidumbre reconocida.** Las fuentes consultadas **no coinciden**, porque usan convenciones distintas: laSexta/Vertele llamó "undécima temporada" a la 2018-19 (una por curso televisivo); Infobae llamó "temporada 19" a la estrenada en septiembre de 2025; TheTVDB cuenta 22 temporadas y 384 episodios partiendo algunas en dos tandas. Se ha registrado **19**, la cifra de la referencia de prensa más reciente localizada, dejando constancia expresa de la discrepancia en vez de presentarla como dato firme — [Infobae](https://www.infobae.com/espana/2025/09/04/salvados-vuelve-a-lasexta-de-la-entrevista-mas-personal-de-wyoming-al-testimonio-del-maquinista-del-alvia-de-santiago/), [elDiario/Vertele](https://www.eldiario.es/vertele/noticias/gonzo-sustituto-evole-salvados-lasexta-presentador_1_7436689.html)
+- Portada: [TVMaze](https://api.tvmaze.com/search/shows?q=Salvados) (registro "Salvados", español, La Sexta, 2008-02-24)
+
+---
+
+## No me llame Ternera
+- Añadida: 2026-08-26, a pedido de la usuaria ("No me llamen ternera").
+- **⚠ ES UNA PELÍCULA, NO UNA SERIE.** Largometraje documental de **101 minutos**, sin episodios ni temporadas. Se ha marcado como "película" en el catálogo. Confirmado por tres fuentes oficiales independientes: la ficha del festival la lista como largometraje de la sección Made in Spain, y ni Netflix España ni Netflix internacional muestran listado de episodios.
+- **Título**: la forma usada por la usuaria ("No me llamen ternera") no es la oficial. El título correcto es **"No me llame Ternera"**, en singular — [Festival de San Sebastián](https://www.sansebastianfestival.com/2023/secciones_y_peliculas/made_in_spain/7/715065/es), [Netflix España](https://www.netflix.com/es-es/title/81680910)
+- Título internacional en Netflix: "Face to Face with ETA: Conversations with a Terrorist" — [Netflix](https://www.netflix.com/title/81680910)
+- Año: 2023. Estreno mundial en el 71º Festival de San Sebastián (22-30 de septiembre de 2023), inaugurando la sección Made in Spain — [Festival de San Sebastián](https://www.sansebastianfestival.com/2023/noticias/1/20979/es)
+- Género: documental. Netflix España lo etiqueta como "Españolas", "Películas documentales" y "Documentales sobre política" — [Netflix España](https://www.netflix.com/es-es/title/81680910)
+- Sinopsis: adaptada de la descripción oficial de Netflix y de la ficha del festival — [Netflix España](https://www.netflix.com/es-es/title/81680910), [Festival de San Sebastián](https://www.sansebastianfestival.com/2023/secciones_y_peliculas/made_in_spain/7/715065/es)
+- Dirección: **Jordi Évole y Màrius Sánchez** (codirectores). Productora: Producciones del Barrio — [Festival de San Sebastián](https://www.sansebastianfestival.com/2023/secciones_y_peliculas/made_in_spain/7/715065/es)
+- Participantes: Jordi Évole (entrevistador) y Josu Urrutikoetxea, alias "Josu Ternera" (entrevistado) — [Netflix](https://www.netflix.com/us-es/title/81680910)
+- **Disponibilidad en España a 26-08-2026: SIGUE EN NETFLIX.** La usuaria dijo "estaba en Netflix", en pasado, así que se comprobó expresamente. La ficha española carga completa y sin aviso de no disponibilidad. Se validó además el método con una prueba de control: un título ausente del catálogo español devuelve el mensaje "este título no puede verse en tu país", lo que confirma que la comprobación distingue de verdad — [Netflix España](https://www.netflix.com/es-es/title/81680910), [Producciones del Barrio](https://delbarrio.tv/proyectos/)
+- ⚠ Fecha exacta de llegada a Netflix: **NO CONFIRMADA**. No hay nota de prensa oficial de Netflix que la fije; varios medios la sitúan el 15-12-2023, pero al no ser fuente oficial no se ha registrado.
+- Portada: cartel oficial del Festival de San Sebastián — https://www.sansebastianfestival.com/admin_img/peliculas/71g/fp_715065_29166.jpg
+
+---
+
 ---
 
 _Las 67 series existentes antes de esta fecha fueron cargadas originalmente con

@@ -234,6 +234,30 @@ Formato por entrada:
 
 ---
 
+## Sterling Point
+- Añadida: 2026-08-26, a pedido de la usuaria, en "🎬 Viendo ahora" (va por el episodio 2).
+- **Corrección de título**: la usuaria la pidió como "Starling Point". El título correcto es **"Sterling Point"**, con e — [Amazon (sala de prensa oficial)](https://www.aboutamazon.com/news/entertainment/sterling-point-series-prime-video)
+- Año / temporadas: **2026** (estreno el 5 de agosto de 2026), **1 temporada**. La temporada 2 está renovada oficialmente pero **aún no estrenada**, por lo que no se cuenta, igual que con el resto del catálogo — [Amazon](https://www.aboutamazon.com/news/entertainment/sterling-point-series-prime-video)
+- Género: Drama · Misterio. Amazon la clasifica oficialmente como "drama series"; el matiz de misterio es clasificación propia a partir de la sinopsis oficial, que habla de secretos — [Amazon](https://www.aboutamazon.com/news/entertainment/sterling-point-series-prime-video)
+- Sinopsis: traducida y adaptada de la sinopsis oficial, cita literal en inglés: "The series follows a New York City teen who inherits her grandfather's mysterious island in Canada, uncovering friends, romance, and secrets" — [Amazon](https://www.aboutamazon.com/news/entertainment/sterling-point-series-prime-video)
+- Creador/a: **Megan Park** (creadora, directora y productora ejecutiva); **Josh Schwartz y Stephanie Savage** (productores ejecutivos y co-showrunners) — [Amazon](https://www.aboutamazon.com/news/entertainment/sterling-point-series-prime-video)
+- Reparto principal: Ella Rubin (Annie Jacobson), Amélie Hoeferle (Ramona), Jacob Whiteduck-Lavoie (Ellis), Bo Bragason (Oona), Jeffrey Dean Morgan (Joe), Jay Duplass (Steven) — [Amazon](https://www.aboutamazon.com/news/entertainment/sterling-point-series-prime-video)
+- Disponible en España: Prime Video. Confirmado por la existencia de la ficha en el dominio español de Prime Video — https://www.primevideo.com/-/es/detail/0K94N2UBORZCLPIC46VTJQ093E
+- ⚠ Nota: la ficha de Prime Video **no se pudo abrir directamente** porque su `robots.txt` prohíbe el acceso automatizado. Todos los datos proceden de la sala de prensa oficial de Amazon, que sí es accesible. El número de episodios de la temporada 1 **no está confirmado por fuente oficial** y por eso no se ha registrado (el catálogo solo guarda temporadas, no episodios).
+- Portada: [TVMaze](https://api.tvmaze.com/singlesearch/shows?q=Sterling%20Point) (estreno 2026-08-05, coincide con el dato oficial de Amazon)
+
+---
+
+## Modo invitados (enlace para compartir) — 2026-08-26
+- Añadido a pedido de la usuaria: quiere compartir su estantería con amigos sin que puedan valorar ni modificar nada.
+- **Cómo funciona**: no es un archivo aparte, sino la misma página con `?invitados` al final de la dirección. Así no hay dos catálogos que mantener sincronizados ni riesgo de que se desincronicen.
+- **Qué ve el invitado** (decidido por la usuaria): el catálogo completo con sus fichas, más sus valoraciones, sus favoritas y su progreso, todo en solo lectura.
+- **Qué NO puede hacer**: no hay estrellas pulsables, ni casilla de favoritas, ni campos de progreso, ni casilla de completada, ni selector de categoría, ni arrastrar tarjetas, ni botón de sincronizar.
+- **Aislamiento verificado**: en modo invitados la página no lee ni escribe el almacenamiento local del visitante. Se comprobó con una prueba automatizada que siembra datos falsos en el navegador del invitado y confirma que (a) se ignoran y (b) siguen intactos después. Los datos que ve vienen de leer `datos.json` público del repositorio, que se actualiza solo cuando la usuaria valora algo.
+- **Nota de privacidad**: `datos.json` ya era público antes de esto, por estar el repositorio en abierto. El modo invitados no expone nada que no estuviera ya accesible; solo lo presenta de forma legible.
+
+---
+
 ---
 
 _Las 67 series existentes antes de esta fecha fueron cargadas originalmente con

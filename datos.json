@@ -51,7 +51,8 @@
     "Furia": 4,
     "¿Y ahora qué? El futuro según Bill Gates": 4,
     "Vivir 100 años: Los secretos de las zonas azules": 5,
-    "Our Planet": 5
+    "Our Planet": 5,
+    "Salvados": 5
   },
   "progress": {
     "Friends": {
@@ -102,6 +103,7 @@
     "Las chicas del cable": true,
     "La Casa de Papel": true,
     "The White Lotus": true,
-    "Vivir 100 años: Los secretos de las zonas azules": true
+    "Vivir 100 años: Los secretos de las zonas azules": true,
+    "Salvados": true
   }
 }

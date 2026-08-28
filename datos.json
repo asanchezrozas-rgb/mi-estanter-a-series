@@ -82,12 +82,16 @@
     },
     "Outlander": {
       "s": 5
+    },
+    "Ozark": {
+      "s": 2
     }
   },
   "catOverride": {
     "Lo que la verdad esconde: El caso Asunta (Operación Nenúfar)": "✅ Terminadas",
     "La Oficina": "🔜 Esperando nueva temporada",
-    "Envidiosa": "🔜 Esperando nueva temporada"
+    "Envidiosa": "🔜 Esperando nueva temporada",
+    "Ozark": "🎬 Viendo ahora"
   },
   "favorites": {
     "Selena: la serie": true,

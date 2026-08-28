@@ -294,6 +294,23 @@ Formato por entrada:
 
 ---
 
+## The Crown y Bridgerton — ELIMINADAS
+- **Eliminadas del catálogo: 2026-08-26**, a pedido de la usuaria ("elimina de pendientes: The Crown y Bridgerton, ya no me interesan").
+- Ambas estaban en "📌 Pendientes" y **ninguna tenía valoración, favorita ni progreso**, así que no se pierde ningún dato personal al quitarlas. Se comprobó antes de borrar.
+- Se retiran de G, DATA y DETAILS (no tenían entrada en EXTRA_SYNOPSIS, ni alias ni portada fijada). Verificado después: sin huérfanos, sin duplicados, y no aparecen ni usando el buscador. El catálogo pasa de 82 a 80 series y Pendientes queda en 15.
+- Se deja este registro en vez de borrar el historial, igual que con el documental del caso Asunta. Si algún día quiere recuperarlas, hay que volver a documentarlas desde cero.
+
+## Chernobyl y Normal People — verificación de temporadas (sin cambios)
+- Verificadas: 2026-08-26, a petición de la usuaria, que quería confirmar si el dato de "1 temporada" seguía siendo correcto en ambas.
+- **Resultado: las dos fichas eran correctas. No se modificó nada.**
+- **Chernobyl**: 1 temporada, 5 episodios. HBO Max la etiqueta literalmente como "1 Temporadas (5 Episodios)" y su propia sinopsis empieza "Miniserie épica en cinco partes producida por HBO". No consta anuncio oficial de continuación — [HBO Max España](https://www.hbomax.com/es/es/show/396999a6-3fff-4af3-802b-10c46d10deff), [HBO Max](https://www.hbomax.com/show/396999a6-3fff-4af3-802b-10c46d10deff)
+  - Títulos que NO son temporadas suyas, para evitar confusiones futuras: "Chernobyl: The Lost Tapes" (2022) es una **película documental** independiente, y "The Chernobyl Podcast" es un pódcast complementario, ambos catalogados aparte en HBO Max — [HBO Max](https://www.hbomax.com/movies/chernobyl-the-lost-tapes/f0a8654e-40fc-4d4e-8eb9-26cf826856f3)
+- **Normal People**: 1 temporada, 12 episodios. Hulu (coproductora y plataforma original) declara "1 season available (12 episodes)" y su sala de prensa "Normal People is a 12-episode 30-minute drama series". En España está en Movistar Plus+, que la describe como "la miniserie de doce episodios" — [Hulu](https://www.hulu.com/series/normal-people-57048262-2ca5-41ee-9b57-53bb9b9e1596), [Hulu (sala de prensa)](https://press.hulu.com/shows/normal-people/), [Movistar Plus+](https://www.movistarplus.es/series/normal-people/ficha?tipo=E&id=3148265)
+  - Aclaración importante: **"Conversations with Friends" (2022) NO es su temporada 2.** Es una serie distinta que adapta otra novela de Sally Rooney (la primera), aunque comparta productora, director y cadenas. La propia productora las lista como dos entradas separadas, y sí etiqueta las temporadas adicionales cuando existen ("The Dry (Season 2)"), lo que refuerza que Normal People solo tiene una — [Element Pictures](https://elementpictures.ie/television/), [Element Pictures](https://elementpictures.ie/television/conversations-with-friends/)
+- ⚠ Limitación declarada: bbc.co.uk y bbc.com están **bloqueados** por la política de red de la sesión (HTTP 403), así que no se pudo consultar a la BBC directamente. Se suplió con tres fuentes oficiales equivalentes (Hulu, la productora Element Pictures y Movistar Plus+), coincidentes entre sí.
+
+---
+
 ---
 
 _Las 67 series existentes antes de esta fecha fueron cargadas originalmente con

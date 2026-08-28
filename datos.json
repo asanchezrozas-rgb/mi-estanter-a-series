@@ -89,12 +89,16 @@
     },
     "House of Cards": {
       "s": 5
+    },
+    "Severance": {
+      "s": 1
     }
   },
   "catOverride": {
     "Lo que la verdad esconde: El caso Asunta (Operación Nenúfar)": "✅ Terminadas",
     "La Oficina": "🔜 Esperando nueva temporada",
-    "Envidiosa": "🔜 Esperando nueva temporada"
+    "Envidiosa": "🔜 Esperando nueva temporada",
+    "Severance": "🎬 Viendo ahora"
   },
   "favorites": {
     "Selena: la serie": true,

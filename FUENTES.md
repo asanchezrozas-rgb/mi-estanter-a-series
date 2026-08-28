@@ -258,6 +258,42 @@ Formato por entrada:
 
 ---
 
+## Las de la última fila
+- Añadida: 2026-08-26, a pedido de la usuaria, en "✅ Terminadas".
+- Nota de fuentes: ficha construida **solo con fuentes oficiales de Netflix** (ficha ES y sala de prensa española). No se usó Wikipedia, IMDb, FilmAffinity, JustWatch ni ningún agregador o medio de prensa; aparecieron en las búsquedas y se descartaron por completo.
+- Título oficial: "Las de la última fila", tal cual lo muestra Netflix España (ID 81189100) — [Netflix España](https://www.netflix.com/es/title/81189100)
+- Año: **2022**. Estreno mundial el 23 de septiembre de 2022 — [Netflix España (sala de prensa)](https://about.netflix.com/es_es/news/there-are-trips-that-change-your-life-forever-the-girls-at-the-back)
+- Temporadas: **1**, de 6 episodios. Netflix la etiqueta expresamente como **"Miniserie"** y su ficha no tiene selector de temporadas — [Netflix España](https://www.netflix.com/es/title/81189100)
+- ⚠ Sobre una posible 2ª temporada: **no consta anuncio oficial de Netflix en ningún sentido**, ni de renovación ni de cancelación. Se revisaron `about.netflix.com`, `media.netflix.com`, `tudum.com` y `netflix.com`, y las dos únicas notas de prensa existentes sobre el título son de septiembre de 2022 y se refieren a la temporada 1. Se deja constancia de que esto es una **verificación negativa** sobre fuentes oficiales, no una declaración oficial de que no habrá continuación.
+- Género: Drama · Comedia — clasificación propia a partir de los géneros oficiales que lista Netflix ("Series dramáticas", "Españolas", "Series de comedia"; entre sus etiquetas figura "Tragicomedia") — [Netflix España](https://www.netflix.com/es/title/81189100)
+- Sinopsis: parafraseada de la descripción oficial de la ficha y de las notas de prensa — [Netflix España](https://www.netflix.com/es/title/81189100), [Netflix España (sala de prensa)](https://about.netflix.com/es_es/news/there-are-trips-that-change-your-life-forever-but-there-are-lives-that)
+- Creador/a: **Daniel Sánchez Arévalo**, acreditado oficialmente como creador, guionista y director. Producida por **Atípica Films** para Netflix — [Netflix España (sala de prensa)](https://about.netflix.com/es_es/news/there-are-trips-that-change-your-life-forever-but-there-are-lives-that)
+- Reparto principal: Itsaso Arana, Mónica Miranda, María Rodríguez Soto, Mariona Terés y Godeliv Van den Brandt. Con participaciones especiales de Javier Rey, Macarena García, Michelle Jenner, Carmen Machi y Antonio de la Torre — [Netflix España (sala de prensa)](https://about.netflix.com/es_es/news/there-are-trips-that-change-your-life-forever-the-girls-at-the-back)
+- Disponible en España: Netflix. Verificado el 26-08-2026: la ficha del dominio español carga completa, en español y con los 6 episodios, sin aviso de restricción por país — [Netflix España](https://www.netflix.com/es/title/81189100)
+- ⚠ No verificable: la ficha de producción de Atípica Films (`atipicafilms.com`) está bloqueada por su robots.txt y por la política de red de la sesión. Los créditos de producción proceden de la sala de prensa oficial de Netflix.
+- Portada: [TVMaze](https://api.tvmaze.com/search/shows?q=The%20Girls%20at%20the%20Back) — registro "Las de la última fila" (español, Netflix, estreno 2022-09-23, coincide exactamente con la fecha oficial de Netflix). Fijada a mano para que no dependa de la búsqueda.
+
+---
+
+## Virgin River
+- Añadida: 2026-08-26, a pedido de la usuaria, en "✅ Terminadas".
+- Nota de fuentes: ficha construida **exclusivamente con fuentes de Netflix** (ficha ES, Tudum y sala de prensa). Todas las búsquedas se restringieron por dominio; no se usó Wikipedia, IMDb ni ningún agregador o medio.
+- **⚠ Título distinto en España**: la usuaria la pidió como "Virgin River" (título original) y así se ha registrado, por coherencia con otros títulos del catálogo que están en su idioma original. Pero **Netflix España la titula "Un lugar para soñar"** — [Netflix España](https://www.netflix.com/es/title/80240027)
+- Netflix Title ID: 80240027
+- Año: **2019** (primera temporada). Nota: la ficha de Netflix muestra "2026" en cabecera porque refleja la temporada más reciente, no el estreno original; el año 2019 está confirmado por los metadatos del hub oficial de Tudum y por el artículo oficial de la T4 ("Virgin River first premiered in 2019") — [Netflix Tudum](https://www.netflix.com/tudum/virgin-river), [Netflix Tudum (T4)](https://www.netflix.com/tudum/articles/virgin-river-season-4-release-date-announced)
+- **Temporadas: 7**, estrenadas a 26-08-2026. Verificado por triple fuente oficial el mismo día: el selector de temporadas de la ficha española muestra "7 temporadas" (dos comprobaciones independientes) y los metadatos del hub de Tudum indican "7 Seasons". La T7 se estrenó el **12 de marzo de 2026** ("streaming on Netflix as of March 12") — [Netflix España](https://www.netflix.com/es/title/80240027), [Netflix Tudum](https://www.netflix.com/tudum/virgin-river), [Netflix Tudum (T7)](https://www.netflix.com/tudum/articles/virgin-river-season-7-release-date-news)
+- **Temporada 8: renovada y en rodaje, sin fecha de estreno.** Cita oficial: "The series is returning for Season 8, currently in production!" (artículo de 27-04-2026). **No se cuenta**, siguiendo el criterio del catálogo de contar solo temporadas estrenadas. No hay ningún anuncio oficial de que la serie vaya a terminar — [Netflix Tudum (T8)](https://www.netflix.com/tudum/articles/virgin-river-season-8-cast-release-date-news), [Netflix (sala de prensa del título)](https://media.netflix.com/en/only-on-netflix/80240027)
+- **Nota para la usuaria**: la colocó en "Terminadas", pero al haber una T8 en camino quizá encaje mejor en "🔜 Esperando nueva temporada". Se ha respetado su indicación; puede moverla desde la propia web.
+- Género: Drama · Romance — clasificación propia a partir de los géneros oficiales que lista Netflix España, literalmente: "Series sobre médicos, Series dramáticas románticas, Series dramáticas y Series basadas en libros" — [Netflix España](https://www.netflix.com/es/title/80240027)
+- Sinopsis: parafraseada de la descripción oficial de Netflix España ("Una enfermera quiere empezar de cero y deja Los Ángeles para mudarse a un remoto pueblo del norte de California, donde le esperan muchas sorpresas") — [Netflix España](https://www.netflix.com/es/title/80240027)
+- Creador/a: **Sue Tenney**, con crédito literal "Creada por: Sue Tenney" en la ficha española. Showrunner actual: **Patrick Sean Smith**. Basada en las novelas de **Robyn Carr** (serie Virgin River, Harlequin), acreditado en el propio titular de la nota de prensa de Netflix — [Netflix España](https://www.netflix.com/es/title/80240027), [Netflix (sala de prensa)](https://about.netflix.com/en/news/alexandra-breckenridge-and-martin-henderson-to-lead-cast-of-netflix-romance-series-virgin-river-based-on-the-books-by-robyn-carr), [Netflix Tudum (T7)](https://www.netflix.com/tudum/articles/virgin-river-season-7-cast-release-date-news)
+- Reparto principal: Alexandra Breckenridge (Mel Monroe), Martin Henderson (Jack Sheridan), Tim Matheson (Doc Mullins), Annette O'Toole (Hope McCrea), Colin Lawrence — [Netflix España](https://www.netflix.com/es/title/80240027), [Netflix (sala de prensa)](https://about.netflix.com/en/news/alexandra-breckenridge-and-martin-henderson-to-lead-cast-of-netflix-romance-series-virgin-river-based-on-the-books-by-robyn-carr)
+- Disponible en España: Netflix, verificado 26-08-2026 — [Netflix España](https://www.netflix.com/es/title/80240027)
+- ⚠ No confirmado por fuente oficial y por tanto **no registrado**: el número de episodios de las temporadas 2, 3, 4, 6 y 7 (la guía de episodios de Tudum se carga por JavaScript y devuelve contenido vacío), y la fecha exacta de estreno de la T1 (solo consta el año). El catálogo solo guarda temporadas, no episodios, así que no afecta a la ficha.
+- Portada: [TVMaze](https://api.tvmaze.com/singlesearch/shows?q=Virgin%20River) (registro "Virgin River", estreno 2019, coincide con el año oficial). Fijada a mano.
+
+---
+
 ---
 
 _Las 67 series existentes antes de esta fecha fueron cargadas originalmente con

@@ -311,6 +311,24 @@ Formato por entrada:
 
 ---
 
+## El Pepe, una vida suprema
+- Añadida: 2026-08-26, a pedido de la usuaria ("el pepe: a supreme life de emir kusturica"), en "✅ Terminadas".
+- Nota de fuentes: ficha construida **solo con fuentes oficiales** — páginas de Netflix por territorio y el sitio oficial de La Biennale di Venezia, el festival que la estrenó. No se usó Wikipedia, IMDb, FilmAffinity, Rotten Tomatoes, JustWatch ni prensa.
+- **⚠ ES UNA PELÍCULA, NO UNA SERIE.** Largometraje documental de **74 minutos**. Netflix la clasifica dentro de "Películas documentales" y su ficha no muestra temporadas ni episodios. Se marca como "película" en el catálogo, igual que "No me llame Ternera" — [Netflix España](https://www.netflix.com/es/title/81094074), [La Biennale di Venezia](https://www.labiennale.org/en/cinema/2018/lineup/out-competition/el-pepe-una-vida-suprema)
+- **Título**: se registra con el título oficial de Netflix España, **"El Pepe, una vida suprema"**. El título internacional que usó la usuaria es en realidad **"El Pepe, a Supreme Life"** — con coma y "a" en minúscula, no "El Pepe: A Supreme Life" — [Netflix España](https://www.netflix.com/es/title/81094074), [Netflix EE. UU.](https://www.netflix.com/us/title/81094074)
+- Netflix Title ID: 81094074
+- Año: **2018**. Estreno mundial en la **75ª Mostra de Venecia**, sección Fuori Concorso / Non Fiction. El festival se celebró del 29 de agosto al 8 de septiembre de 2018 — [La Biennale](https://www.labiennale.org/en/cinema/2018/lineup/out-competition), [La Biennale](https://www.labiennale.org/en/cinema/2018)
+- ⚠ La **fecha exacta de la proyección** en el festival no consta en la ficha oficial de La Biennale, solo la ventana del festival. No registrada.
+- Género: Documental · Política — clasificación propia a partir de los géneros oficiales de Netflix España, literalmente: "Películas documentales, Documentales sobre política y Documentales biográficos" — [Netflix España](https://www.netflix.com/es/title/81094074)
+- Sinopsis: parafraseada de la descripción oficial de Netflix y de la sinopsis y nota del director en la ficha del festival — [Netflix España](https://www.netflix.com/es/title/81094074), [La Biennale](https://www.labiennale.org/en/cinema/2018/lineup/out-competition/el-pepe-una-vida-suprema)
+- Dirección: **Emir Kusturica**. Producción: **K S Films** (Hugo Sigman, Matías Mosteirín, Leticia Cristi) y **Oriental Films**. Coproducción de Argentina, Uruguay y Serbia — [La Biennale](https://www.labiennale.org/en/cinema/2018/lineup/out-competition/el-pepe-una-vida-suprema)
+- Quién aparece: **José «Pepe» Mujica**, en conversación con el propio Kusturica, que aparece en pantalla como interlocutor. La Biennale acredita a Mujica como único "Main Cast"; Netflix España lista "José Mujica y Emir Kusturica" — [La Biennale](https://www.labiennale.org/en/cinema/2018/lineup/out-competition/el-pepe-una-vida-suprema), [Netflix España](https://www.netflix.com/es/title/81094074)
+- **Disponible en España: SÍ, verificado el 26-08-2026 con controles negativos.** Como los títulos se retiran de los catálogos, no bastaba con que la página cargara. Método: (a) la ficha española carga con contenido real y datos localizados de España, incluidos precios en euros y calificación 12+ (distinta de la uruguaya, 13+, lo que prueba que es ficha por país); (b) el mismo ID en el catálogo japonés devuelve **HTTP 404**; (c) para descartar que ese 404 fuese una ruta rota, se comprobó que otro título sí carga en la ruta japonesa. Es decir, el método distingue de verdad entre "disponible" y "retirado" — [Netflix España](https://www.netflix.com/es/title/81094074), [Netflix Japón (404, control)](https://www.netflix.com/jp/title/81094074), [Netflix Japón (control de ruta válida)](https://www.netflix.com/jp/title/80192098)
+- Portada: imagen oficial de la ficha del festival — https://static.labiennale.org/files/styles/full_screen_slide/public/cinema/2018/Schede_film/970x647/Fuori_Concorso/el-pepe-una-vida-suprema.jpg?itok=evYDV74G
+  - ⚠ **No se ha podido comprobar que esa URL cargue**: el dominio `static.labiennale.org` está bloqueado por la política de red de la sesión, y Netflix no expone URLs de cartel extraíbles. Además, el parámetro `?itok=` de ese tipo de URL puede caducar con el tiempo. Si la portada no aparece, hay que sustituirla por otra fuente.
+
+---
+
 ---
 
 _Las 67 series existentes antes de esta fecha fueron cargadas originalmente con

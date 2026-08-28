@@ -77,12 +77,16 @@
     "Sterling Point": {
       "s": 1,
       "e": 2
+    },
+    "Outlander": {
+      "s": 6
     }
   },
   "catOverride": {
     "Lo que la verdad esconde: El caso Asunta (Operación Nenúfar)": "✅ Terminadas",
     "La Oficina": "🔜 Esperando nueva temporada",
-    "Envidiosa": "🔜 Esperando nueva temporada"
+    "Envidiosa": "🔜 Esperando nueva temporada",
+    "Outlander": "🎬 Viendo ahora"
   },
   "favorites": {
     "Selena: la serie": true,

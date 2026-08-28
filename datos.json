@@ -95,6 +95,9 @@
     },
     "The Good Doctor": {
       "s": 5
+    },
+    "Black Mirror": {
+      "s": 6
     }
   },
   "catOverride": {
@@ -102,7 +105,8 @@
     "La Oficina": "🔜 Esperando nueva temporada",
     "Envidiosa": "🔜 Esperando nueva temporada",
     "Severance": "🎬 Viendo ahora",
-    "The Good Doctor": "🎬 Viendo ahora"
+    "The Good Doctor": "🎬 Viendo ahora",
+    "Black Mirror": "🎬 Viendo ahora"
   },
   "favorites": {
     "Selena: la serie": true,

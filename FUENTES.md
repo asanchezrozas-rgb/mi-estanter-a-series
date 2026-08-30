@@ -329,6 +329,25 @@ Formato por entrada:
 
 ---
 
+## Coisa Mais Linda
+- Añadida: 2026-08-26, a pedido de la usuaria ("la coisa mais linda... una brasileña"), en "✅ Terminadas".
+- Nota de fuentes: ficha construida **solo con fuentes de Netflix** (ficha por país, sala de prensa y centro de prensa). No se usó Wikipedia, IMDb, FilmAffinity, JustWatch ni prensa.
+- Título: **"Coisa Mais Linda"**, tal cual. Netflix España **no lo traduce**: lo muestra en portugués. Título internacional en inglés: "Girls from Ipanema" — [Netflix España](https://www.netflix.com/es/title/80208298), [Netflix](https://www.netflix.com/title/80208298)
+- Netflix Title ID: 80208298
+- **⚠ Año: 2020, con salvedad importante.** Es el año que muestra la ficha de Netflix España, y **es el único año respaldado por una fuente oficial**. Se buscó expresamente el año de estreno de la temporada 1 en `about.netflix.com`, `media.netflix.com` y el centro de prensa, y **ninguna fuente oficial lo publica** (el centro de prensa no da fecha ni año para la T1). Como en otras fichas se ha comprobado que Netflix muestra en cabecera el año de la temporada más reciente y no el del estreno original, **es posible que 2020 no sea el año de estreno real de la serie**, pero no se registra otro porque no hay fuente oficial que lo sostenga. Preferible dejarlo así, señalado, que rellenarlo con una fuente no admitida — [Netflix España](https://www.netflix.com/es/title/80208298), [Netflix Media Center](https://media.netflix.com/en/only-on-netflix/80208298)
+- **Temporadas: 2**, confirmado de forma concordante en cuatro rutas oficiales distintas de Netflix (España, Brasil, Reino Unido y la ficha global). La T2 se estrenó el **19 de junio de 2020** — [Netflix España](https://www.netflix.com/es/title/80208298), [Netflix (sala de prensa)](https://about.netflix.com/es/news/hop-on-board-and-sail-back-to-the-60-s-girls-from-ipanema-season-2-premieres-on-june-19th)
+- Episodios: T1 con **7 episodios** (listados con título y duración en la ficha española) y T2 con **6 episodios de 50 minutos** ("Serão seis episódios de 50 minutos"). Nota: el anuncio original de producción hablaba de "eight one-hour episodes" para la T1; prevalece la ficha real, que lista 7 — [Netflix España](https://www.netflix.com/es/title/80208298), [Netflix (sala de prensa BR)](https://about.netflix.com/pt_br/news/netflix-reveals-exclusive-trailer-of-girls-from-ipanema-season-2)
+- ⚠ No consta anuncio oficial de una temporada 3, ni declaración oficial de final o cancelación. Verificación negativa sobre fuentes oficiales, no declaración de Netflix.
+- Género: Drama · Música — clasificación propia. Netflix España lista literalmente "Música, Series dramáticas románticas, Series dramáticas y Brasileñas"; se usa "Drama · Música" por coherencia con las otras fichas musicales del catálogo (Selena, Luis Miguel, Hasta que te conocí) — [Netflix España](https://www.netflix.com/es/title/80208298)
+- Sinopsis: parafraseada de la descripción oficial — [Netflix España](https://www.netflix.com/es/title/80208298)
+- Creadores: **Heather Roth y Giuliano Cedroni** (línea literal "Creada por" de la ficha española). Productora: **Prodigo Films** para Netflix — [Netflix España](https://www.netflix.com/es/title/80208298), [Netflix (sala de prensa)](https://about.netflix.com/es/news/hop-on-board-and-sail-back-to-the-60-s-girls-from-ipanema-season-2-premieres-on-june-19th)
+- Reparto principal: Maria Casadevall (Malu), Pathy Dejesus (Adélia), Mel Lisboa (Thereza), Larissa Nunes (Ivone), Ícaro Silva (Capitão), Leandro Lima (Chico) — [Netflix España](https://www.netflix.com/es/title/80208298), [Netflix (sala de prensa)](https://about.netflix.com/es/news/hop-on-board-and-sail-back-to-the-60-s-girls-from-ipanema-season-2-premieres-on-june-19th)
+- **Disponible en España: SÍ, verificado el 26-08-2026 con cuatro controles.** (a) La ficha española carga completa, sin aviso de indisponibilidad. (b) Control de plantilla: otro título en la misma ruta `/es/` sí muestra el aviso "este título no puede verse en tu país", luego la ausencia del aviso es informativa y no un artefacto. (c) Un ID inexistente devuelve 404, luego el endpoint valida identificadores reales. (d) Control decisivo: un mismo título está disponible en `/es/` y no en `/gb/`, lo que prueba que el catálogo lo determina la ruta de país y no la geolocalización — [Netflix España](https://www.netflix.com/es/title/80208298)
+- ⚠ Discrepancia entre fuentes oficiales anotada: una nota de prensa de Netflix en español escribe el título como "Coisa Más Linda", híbrido de portugués y español. Se usa la grafía de la ficha de plataforma, que es la autoritativa.
+- Portada: **sin fijar a mano**. Se deja que la resuelva la búsqueda automática del propio sitio, porque el título es distintivo. Si no apareciera, habría que fijarla.
+
+---
+
 ---
 
 _Las 67 series existentes antes de esta fecha fueron cargadas originalmente con
